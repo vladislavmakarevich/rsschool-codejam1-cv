@@ -1,0 +1,89 @@
+@font-face {
+    font-family: "URW Chancery L";
+    src: url(../font/urw_chancery_l_medium_italic.ttf);
+   }
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1024px;
+    margin: auto ;
+    background-color: blanchedalmond;
+}
+
+section {
+    background: #ffffff;
+    border: 4px double pink;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+img {
+    float: right;
+    border: 4px double pink;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+h1,
+h2 {
+    text-shadow: 1px 1px 2px tan;
+    font-family: "URW Chancery L";
+}
+
+article,
+a {
+    font-family: "URW Chancery L", "Arial", sans-serif;
+    font-size: 20px;
+}
+
+ol {
+    counter-reset: myCounter;
+    font-family: "URW Chancery L";
+    font-size: 18px;
+}
+  
+li {
+    list-style: none;
+}
+  
+li:before {
+    counter-increment: myCounter;
+    content: counter(myCounter);
+    display: inline-block;
+    text-align: center;
+    margin: 5px 10px;
+    line-height: 40px;
+    width: 40px;
+    height: 40px;
+    color: white;
+    background: #2980B9;
+}
+  
+a {
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+}
+  
+a:link {
+    color: #265301;
+}
+  
+a:visited {
+    color: #437A16;
+}
+  
+a:focus {
+    border-bottom: 1px solid;
+    background: #BAE498;
+}
+  
+a:hover {
+    border-bottom: 1px solid;     
+    background: #CDFEAA;
+}
+  
+a:active {
+    background: #265301;
+    color: #CDFEAA;
+}
