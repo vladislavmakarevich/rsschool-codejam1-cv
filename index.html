@@ -8,21 +8,84 @@
 </head>
 <body>
     <header>
-        <h1>Resume</h1>
+        <div>
+            <h1>Resume</h1>
+        </div>    
     </header>
     <main>
-        <section>
-            <article>
-                
-            </article>
-            <figure>
-                <p><img src="./img/a1.jpg" alt="My photo" width="210" height="150"/></p>
-                <figcaption>My photo</figcaption>
-            </figure>
-        </section>
+        <div>
+            <section>
+                <figure>
+                    <p><img src="./img/a1.jpg" alt="My photo" width="210" height="150"/></p>
+                    <figcaption>My photo</figcaption>
+                </figure>
+                <h3>Personal information</h3>
+                <p>Vladislav Makarevich</p>
+                <p>email:bgmakar79@gmail.com</p> 
+                <p>tel:+375(25)950-45-47</p>
+            </section>
+            <section>
+                <h3>Summary</h3>
+                <article>I'm a student of The Rolling Scopes School.<br>
+                    I signed up for these courses because my purporse is to learn how to develop websites,<br>
+                    learn how to work with the programming language JavaScript and realize yourself as a web developer.
+                </article>
+            </section>
+            <section>
+                <h3>Skills</h3>
+                <ol>
+                    <li>Git</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ol>
+            </section>
+            <section>
+                <h3>Code examples</h3>
+                <code>
+                    module.exports = function getZerosCount(number) { <br>
+                        &nbsplet res = 0,i=1;<br>
+                        &nbspwhile(Math.trunc(number/Math.pow(5,i))>=1){ <br>
+                            &nbsp&nbspres+=Math.floor(number/Math.pow(5,i)); <br>
+                            &nbsp&nbspi++; <br>
+                            &nbsp} <br>
+                        &nbspreturn res; <br>
+                    }<br>                        
+                </code>
+            </section>
+            <section>
+                <h3>Experience</h3>
+                <ol>
+                    <li><a href="https://github.com/vladislavmakarevich/" target="_blank">GitHub profile</a></li>
+                    <li><a href="https://github.com/vladislavmakarevich/warmup" target="_blank">Warmup</a></li>
+                    <li><a href="https://github.com/vladislavmakarevich/love-triangle" target="_blank">Love triangle</a></li>
+                    <li><a href="https://github.com/vladislavmakarevich/sorter" target="_blank">Sorter</a></li>
+                    <li><a href="https://github.com/vladislavmakarevich/quadratic-equation" target="_blank">Quadratic equation</a></li>
+                    <li><a href="https://github.com/vladislavmakarevich/Money-Exchange" target="_blank">Money Exchange</a></li>
+                    <li><a href="https://github.com/vladislavmakarevich/additional_5" target="_blank">Correct expression</a></li>
+                    <li><a href="https://github.com/vladislavmakarevich/zeros" target="_blank">Zeros</a></li>
+                    <li><a href="https://github.com/vladislavmakarevich/advanced-zeros" target="_blank">Advanced Zeros</a></li>
+                </ol>
+            </section>
+            <section>
+                <h3>Education</h3>
+                <article>
+                    Incomplete higher education, <br>Belarusian State University faculty Applied Mathematics and Computer Science
+                </article>
+            </section>
+            <section>
+                <h3>English level</h3>
+                <article>
+                    Pre-intermediate(A2-B1)<br>
+                    Courses:IH 2 month,Duolingo complete
+                </article>
+            </section>
+        </div>
     </main>
     <footer>
-        <p>© Copyright by Vladislav Makarevich</p>
+        <article>
+            © Copyright by Vladislav Makarevich
+        </article>
     </footer>
 </body>
 </html>
