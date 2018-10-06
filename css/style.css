@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "URW Chancery L";
+    src: url(../font/urw_chancery_l_medium_italic.ttf);
+   }
+
 body {
     display: flex;
     flex-direction: column;
@@ -20,17 +25,21 @@ img {
 }
 
 h1,
-h3 {
+h2 {
     text-shadow: 1px 1px 2px tan;
+    font-family: "URW Chancery L";
 }
 
 article,
 a {
-    font-family: "Bradley Hand", "Arial", sans-serif;
+    font-family: "URW Chancery L", "Arial", sans-serif;
+    font-size: 20px;
 }
 
 ol {
     counter-reset: myCounter;
+    font-family: "URW Chancery L";
+    font-size: 18px;
 }
   
 li {
